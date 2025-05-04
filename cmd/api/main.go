@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/gabrielgcmr/medapp/internal/database"
-	"github.com/gabrielgcmr/medapp/internal/middleware"
-	"github.com/gabrielgcmr/medapp/internal/patient"
-	"github.com/gabrielgcmr/medapp/pkg/validation"
+	"github.com/gabrielgcmr/previn-api/internal/database"
+	"github.com/gabrielgcmr/previn-api/internal/middleware"
+	"github.com/gabrielgcmr/previn-api/internal/patient"
+	"github.com/gabrielgcmr/previn-api/pkg/validation"
 
 	"github.com/gin-gonic/gin"
 )
