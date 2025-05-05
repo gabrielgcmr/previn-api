@@ -6,7 +6,7 @@ import (
 
 type Patient struct {
 	ID           int        `gorm:"primaryKey;autoIncrement" json:"id"`
-	CPF          string     `gorm:"size:14;not null;uniqueIndex" json:"cpf"`
+	CPF          string     `gorm:"size:11;not null;uniqueIndex" json:"cpf"`
 	CNS          *string    `gorm:"size:15" json:"cns,omitempty"`
 	FullName     string     `gorm:"size:255;not null" json:"full_name"`
 	PasswordHash string     `gorm:"size:255;not null" json:"-"`
