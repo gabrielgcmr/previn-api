@@ -14,7 +14,7 @@ import (
 func main() {
 	//conectar db
 	database.Connect()
-
+	database.DB.AutoMigrate(&patient.Patient{})
 	//montar o gin e rotas
 	r := gin.Default()
 

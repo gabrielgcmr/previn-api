@@ -14,5 +14,25 @@ services:
     volumes:
       - postgres-data:/var/lib/postgresql/data
 
+  api:
+    # Dá build usando o Dockerfile que está em previn-api/
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: previn_api
+    restart: always
+    ports:
+    - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      # Ajuste as variáveis de ambiente para apontar pro serviço 'db'
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_USER: postgres 
+      DB_PASSWORD: senha123
+      DB_NAME: rastreio
+      JWT_SECRET: amovoces
+
 volumes:
   postgres-data:
