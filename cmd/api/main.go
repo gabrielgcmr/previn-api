@@ -43,5 +43,6 @@ func main() {
 	log.Printf("🚀 API running on %s", addr)
 
 	// 7) Inicia o servidor na porta correta
-	r.Run(":" + port)
+	r.Run("0.0.0.0:" + port) //
+
 }
