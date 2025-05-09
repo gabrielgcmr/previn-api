@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/gabrielgcmr/previn-api/internal/database"
-	"github.com/gabrielgcmr/previn-api/internal/middleware"
-	"github.com/gabrielgcmr/previn-api/internal/patient"
-	"github.com/gabrielgcmr/previn-api/pkg/validation"
+	"github.com/gabrielgcmr/sonda-api/internal/database"
+	"github.com/gabrielgcmr/sonda-api/internal/middleware"
+	"github.com/gabrielgcmr/sonda-api/internal/patient"
+	"github.com/gabrielgcmr/sonda-api/pkg/validation"
 	"github.com/gin-gonic/gin"
 )
 
