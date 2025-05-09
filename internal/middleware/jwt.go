@@ -15,9 +15,9 @@ var jwtSecret []byte
 
 func init() {
 	_ = godotenv.Load()
-	secret := os.Getenv("JWT_SECRET")
+	secret := os.Getenv("_JWT_SECRET")
 	if secret == "" {
-		panic("JWT_SECRET must be set")
+		panic("_JWT_SECRET must be set")
 	}
 	jwtSecret = []byte(secret)
 }
