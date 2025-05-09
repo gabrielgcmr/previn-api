@@ -43,7 +43,5 @@ func main() {
 	log.Printf("🚀 API running on %s", addr)
 
 	// 7) Inicia o servidor na porta correta
-	if err := r.Run(addr); err != nil {
-		log.Fatalf("Falha ao iniciar o servidor: %v", err)
-	}
+	r.Run(":" + port)
 }
