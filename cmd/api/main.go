@@ -23,8 +23,8 @@ func main() {
 	}
 
 	// 3) Verifica variáveis críticas
-	if os.Getenv("_JWT_SECRET") == "" {
-		log.Fatal("_JWT_SECRET não está definido")
+	if os.Getenv("JWT_SECRET") == "" {
+		log.Fatal("JWT_SECRET não está definido")
 	}
 
 	// 4) Cria o router Gin
@@ -35,7 +35,7 @@ func main() {
 	patient.Routes(r)
 
 	// 6) Lê a porta do ambiente ou usa 8080
-	port := os.Getenv("_PORT")
+	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
