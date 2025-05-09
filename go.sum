@@ -1,3 +1,7 @@
+cloud.google.com/go/documentai v1.37.0 h1:7fla8GcarupO15eatRTUveXCob6DOSW1Wa+1i63CM3Q=
+cloud.google.com/go/documentai v1.37.0/go.mod h1:qAf3ewuIUJgvSHQmmUWvM3Ogsr5A16U2WPHmiJldvLA=
+cloud.google.com/go/run v1.9.3 h1:BrB0Y/BlsyWKdHebDp3CpbV9knwcWqqQI4RWYElf1zQ=
+cloud.google.com/go/run v1.9.3/go.mod h1:Si9yDIkUGr5vsXE2QVSWFmAjJkv/O8s3tJ1eTxw3p1o=
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
 github.com/bytedance/sonic v1.12.6 h1:/isNmCUF2x3Sh8RAp/4mh4ZGkcFAX/hLrzrK3AvpRzk=
