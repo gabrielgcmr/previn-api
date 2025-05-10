@@ -4,9 +4,9 @@ package patient
 import (
 	"net/http"
 
-	"github.com/gabrielgcmr/sonda-api/internal/patient/dto"
-	"github.com/gabrielgcmr/sonda-api/internal/patient/utils"
-	"github.com/gabrielgcmr/sonda-api/pkg/validation"
+	"github.com/gabrielgcmr/sonnda-api/internal/patient/dto"
+	"github.com/gabrielgcmr/sonnda-api/internal/patient/utils"
+	"github.com/gabrielgcmr/sonnda-api/pkg/validation"
 	"github.com/gin-gonic/gin"
 )
 
